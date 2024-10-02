@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
               Theme.of(context).textTheme,
             ),
             appBarTheme: AppBarTheme(
-              color: AppColors.white,
+              color: AppColors.light1,
               elevation: 0,
               titleTextStyle: GoogleFonts.quicksand(
                 color: AppColors.primary,

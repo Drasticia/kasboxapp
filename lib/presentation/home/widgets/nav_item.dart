@@ -35,7 +35,7 @@ class NavItem extends StatelessWidget {
             child: SvgPicture.asset(
               iconPath,
               colorFilter: ColorFilter.mode(
-                isActive ? AppColors.black : AppColors.disabled,
+                isActive ? AppColors.secondary : AppColors.disabled,
                 BlendMode.srcIn,
               ),
             ),
@@ -45,7 +45,7 @@ class NavItem extends StatelessWidget {
             label,
             style: TextStyle(
               fontSize: 12,
-              color: isActive ? AppColors.black : AppColors.disabled,
+              color: isActive ? AppColors.secondary : AppColors.disabled,
             ),
           ),
         ],

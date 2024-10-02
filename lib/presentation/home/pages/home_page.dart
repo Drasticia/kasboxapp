@@ -4,6 +4,7 @@ import 'package:kasboxapp/core/assets/assets.gen.dart';
 import 'package:kasboxapp/core/components/menu_button.dart';
 import 'package:kasboxapp/core/components/search_input.dart';
 import 'package:kasboxapp/core/components/spaces.dart';
+import 'package:kasboxapp/core/constants/colors.dart';
 import 'package:kasboxapp/presentation/home/bloc/product/product_bloc.dart';
 import 'package:kasboxapp/presentation/home/models/product_category.dart';
 import 'package:kasboxapp/presentation/home/models/product_model.dart';
@@ -85,6 +86,7 @@ class _HomePageState extends State<HomePage> {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
+          backgroundColor: AppColors.light,
           title: const Text(
             'Menu',
             style: TextStyle(

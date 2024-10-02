@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:kasboxapp/core/assets/assets.gen.dart';
+import 'package:kasboxapp/core/constants/colors.dart';
 import 'package:kasboxapp/data/datasources/auth_local_datasource.dart';
 import 'package:kasboxapp/data/models/response/auth_response_model.dart';
 import 'package:kasboxapp/presentation/auth/bloc/login/login_bloc.dart';
@@ -31,6 +32,7 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: AppColors.light1,
       body: ListView(
         padding: const EdgeInsets.all(16.0),
         children: [

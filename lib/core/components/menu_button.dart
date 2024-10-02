@@ -36,10 +36,9 @@ class MenuButton extends StatelessWidget {
           padding: const EdgeInsets.all(8.0),
           decoration: BoxDecoration(
             color: isActive ? AppColors.primary : AppColors.white,
-            borderRadius: const BorderRadius.all(Radius.circular(6.0)),
+            borderRadius: const BorderRadius.all(Radius.circular(20.0)),
             boxShadow: [
               BoxShadow(
-                offset: const Offset(0, 4),
                 blurRadius: 20.0,
                 blurStyle: BlurStyle.outer,
                 spreadRadius: 0,
